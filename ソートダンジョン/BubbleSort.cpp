@@ -8,9 +8,9 @@ void BubbleSort::Exec(int* array, int size)
 		{
 			if (array[i] > array[i + 1])
 			{
-				int memory = array[i];
+				int temp = array[i];
 				array[i] = array[i + 1];
-				array[i + 1] = memory;
+				array[i + 1] = temp;
 			}
 		}
 	}
