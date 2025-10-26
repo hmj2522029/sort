@@ -3,7 +3,7 @@
 void SelectionSort::Exec(int* array, int size)
 {
 
-	for (int i = 0; i < size - 1; i++)	//最小候補
+	for (int i = 0; i < size - 1; i++)	
 	{
 		int MinimalCandidate = i; //一旦確定していない一番左の値はを最小候補に入れておく(インデックス)
 

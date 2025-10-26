@@ -1,4 +1,12 @@
 ﻿  BubbleSort.cpp
+  InsertionSort.cpp
+  Main.cpp
+  QuickSort.cpp
   SelectionSort.cpp
   コードを生成中...
-  ソートダンジョン.vcxproj -> D:\mongutiyumeto\GitHub\ソート\ソートダンジョン\x64\Debug\ソートダンジョン.exe
+C:\Gethab\sort\ソートダンジョン\Main.cpp(51,17): warning C4244: '初期化中': '_Rep' から 'double' への変換です。データが失われる可能性があります。
+C:\Gethab\sort\ソートダンジョン\Main.cpp(51,17): warning C4244:         with
+C:\Gethab\sort\ソートダンジョン\Main.cpp(51,17): warning C4244:         [
+C:\Gethab\sort\ソートダンジョン\Main.cpp(51,17): warning C4244:             _Rep=__int64
+C:\Gethab\sort\ソートダンジョン\Main.cpp(51,17): warning C4244:         ]
+  ソートダンジョン.vcxproj -> C:\Gethab\sort\ソートダンジョン\x64\Debug\ソートダンジョン.exe
