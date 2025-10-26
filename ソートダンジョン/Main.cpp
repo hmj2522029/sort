@@ -5,6 +5,7 @@
 #include "InsertionSort.h"
 #include "SelectionSort.h"
 #include "QuickSort.h"
+#include "RadixSort.h"
 //#include "SelectionSort.h"
 //#include "InsertionSort.h"
 //#include "QuickSort.h"
@@ -23,7 +24,7 @@ void ShowArray(int* array, int size)
 int main()
 {
 	constexpr int Size = 10;
-	Sort* BeSort = new QuickSort();
+	Sort* BeSort = new RadixSort();
 
 	//—”‚Ì‰Šú‰»
 	srand((unsigned int)time(NULL)); 
