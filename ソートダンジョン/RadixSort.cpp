@@ -4,7 +4,7 @@
 void RadixSort::Exec(int* array, int size)
 {
 	int maxValue = array[0]; //配列内の最大値を見つける
-	for (int i = 1; i < size - 1; i++) 
+	for (int i = 1; i < size; i++) 
 	{
 		if (array[i] > maxValue)
 		{
@@ -19,7 +19,7 @@ void RadixSort::Exec(int* array, int size)
 		int count[10] = { 0 };			//各桁の出現回数を格納する配列
 
 		//各桁の出現回数をカウント
-		for(int i = 0; i < size - 1; i++)
+		for(int i = 0; i < size; i++)
 		{
 			int digitValue = (array[i] / exp) % 10; //現在の位の値を取得	例: 値が 345 の場合、digit = 10(十の位)なら digitValue = 4
 			count[digitValue]++;

@@ -1,7 +1,2 @@
-﻿  Main.cpp
-C:\Gethab\sort\ソートダンジョン\Main.cpp(52,17): warning C4244: '初期化中': '_Rep' から 'double' への変換です。データが失われる可能性があります。
-C:\Gethab\sort\ソートダンジョン\Main.cpp(52,17): warning C4244:         with
-C:\Gethab\sort\ソートダンジョン\Main.cpp(52,17): warning C4244:         [
-C:\Gethab\sort\ソートダンジョン\Main.cpp(52,17): warning C4244:             _Rep=__int64
-C:\Gethab\sort\ソートダンジョン\Main.cpp(52,17): warning C4244:         ]
-LINK : fatal error LNK1168: ファイル C:\Gethab\sort\ソートダンジョン\x64\Debug\ソートダンジョン.exe を開いて書き込むことができません。
+﻿  RadixSort.cpp
+  ソートダンジョン.vcxproj -> D:\mongutiyumeto\GitHub\ソート\ソートダンジョン\x64\Debug\ソートダンジョン.exe
